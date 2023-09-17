@@ -1,0 +1,45 @@
+body{
+    background-image: url("image/cal.jpeg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: rgb(81, 108, 141);
+    size: 20px;
+    
+}
+#canvas {
+    background: rgb(203, 203, 218);
+     width: 500px; 
+     display: flex; 
+    flex-direction: column;
+    align-items: center;
+    
+}
+#input{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#operators{
+    margin: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.buton{
+   margin: 10px;
+    width: 130px; 
+    height: 40px; 
+     border-radius: 30px; 
+    border: none; 
+    cursor: pointer;
+    font-size: 16px;
+    
+    
+}
